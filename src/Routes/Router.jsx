@@ -21,18 +21,18 @@ const router = createBrowserRouter([
         },
     ]
   },
-//   {
-//     path: "/auth",
-//     element: <h2>Authentication Layout</h2>,
-//   },
-//   {
-//     path: "/news",
-//     element: <h2>News Layout</h2>,
-//   },
-// //   {
-// //     path: "/*",
-// //     element: <ErrorPage></ErrorPage>,
-// //   },
+  {
+    path: "/auth",
+    element: <h2>Authentication Layout</h2>,
+  },
+  {
+    path: "/news",
+    element: <h2>News Layout</h2>,
+  },
+  {
+    path: "/*",
+    element: <ErrorPage></ErrorPage>,
+  },
 ]);
 
 export default router;
